@@ -21,7 +21,7 @@ export default function Portfolio() {
         <div >
 
 
-            <p className='text-center text-white text-[40px] font-sans font-[300] pt-[220px] pb-[30px]'>Personal Portfolio</p>
+            <p className='text-center text-white text-[40px] font-sans font-[300] pt-[120px] pb-[30px]'>Personal Portfolio</p>
 
 
 
