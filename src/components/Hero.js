@@ -9,7 +9,7 @@ export default function Hero() {
         
         
 
-        <section class="relative h-[800px] sm:h-[750px] flex flex-col items-center justify-center text-center text-white py-0 px-3">
+        <section class="relative h-[750px] flex flex-col items-center justify-center text-center text-white py-0 px-3">
     <div class="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
         <video class="min-w-full min-h-full absolute object-cover" src={vid} type="video/mp4" autoPlay={true} muted loop></video>
     </div>
