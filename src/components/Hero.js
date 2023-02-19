@@ -11,7 +11,7 @@ export default function Hero() {
 
         <section class="relative h-screen flex flex-col items-center justify-center text-center text-white py-0 px-3">
     <div class="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
-        <video class="min-w-full min-h-full absolute object-cover" src={vid} type="video/mp4" autoPlay muted loop></video>
+        <video class="min-w-full min-h-full absolute object-cover" src={vid} type="video/mp4" autoplay={true}  loop={true}></video>
     </div>
     <div class=" z-10 grid place-items-center h-[800px] w-[100%] text-center">
             <iframe class="h-[440px] w-full mt-[50px]" src='https://my.spline.design/untitled-ec69b075a9f0ecd74c57339b8b6a315f/' frameborder='0'></iframe>
