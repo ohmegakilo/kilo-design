@@ -25,7 +25,7 @@ export default function Portfolio() {
 
 
 
-            <Carousel draggable={true} focusOnSelect={false} responsive={responsive} autoPlay autoPlaySpeed={900} infinite removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}>
+            <Carousel draggable={true} focusOnSelect={false} responsive={responsive} autoPlay autoPlaySpeed={1500} infinite removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}>
                 <div class="pl-2 pr-2" ><img src="https://cdn.discordapp.com/attachments/1066254964265070592/1074515638271361214/White_10.png" class="w-[60%] h-[60%] sm:h-auto sm:w-auto rounded-[15px]" style={{ marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center" }} /></div>
                 <div class="pl-2 pr-2" ><img src="https://cdn.discordapp.com/attachments/1066254964265070592/1074515636883042314/Asset_8_2.png" class="w-[60%] h-[60%] sm:h-auto sm:w-auto rounded-[15px]" style={{ marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center" }} /></div>
                 <div class="pl-2 pr-2" ><img src="https://cdn.discordapp.com/attachments/1066254964265070592/1074515637403140116/image_666_1.png" class="w-[60%] h-[60%] sm:h-auto sm:w-auto rounded-[15px]" style={{ marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center" }} /></div>
