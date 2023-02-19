@@ -22,7 +22,7 @@ export default function Adventures() {
                     <p class="text-center mt-[8px] text-[14px] font-[200] sm:text-[16px] ]">Soon™</p>
                 </a>
                 <a>
-                    <div class="flex justify-center  border-[1px] border-[rgb(34,34,34)] bg-[rgb(12,11,11)]  rounded-[30px] sm:rounded-[50px] p-6 w-[110px] h-[110px] sm:w-[150px] sm:h-[150px]"><img src={mm} class="py- sm:py-3"/></div>
+                    <div class="flex justify-center  border-[1px] border-[rgb(34,34,34)] bg-[rgb(12,11,11)]  rounded-[30px] sm:rounded-[50px] p-6 w-[110px] h-[110px] sm:w-[150px] sm:h-[150px]"><img src={mm} class="py-1 sm:py-3"/></div>
                     <p class="text-center mt-[8px] text-[14px] font-[200] sm:text-[16px] ]">Soon™</p>
                 </a>
 
