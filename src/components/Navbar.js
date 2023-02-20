@@ -15,20 +15,20 @@ export default function Navbar() {
             <div class="space-x-1 hidden sm:block ml-5">
                 <a href="#" class="text-sm text-gray-400 font-[200] hover:font-[400] hover:text-white  hover:border border-gray-600  px-5 py-4 rounded-[20px] hover:shadow">Home</a>
                 <a href="https://www.behance.net/ohmegakilo" class="text-sm text-gray-400 font-[200] hover:font-[400] hover:text-white  hover:border border-gray-600 px-5 py-4 rounded-[20px] hover:shadow">Portfolio</a>
-                <a href="https://twitter.com/home" class="text-sm text-gray-400 font-[200] hover:font-[400] hover:text-white  hover:border border-gray-600  px-5 py-4 rounded-[20px] hover:shadow">Contact</a>
+                <a href="mailto:ohmegakilo@proton.me" class="text-sm text-gray-400 font-[200] hover:font-[400] hover:text-white  hover:border border-gray-600  px-5 py-4 rounded-[20px] hover:shadow">Contact</a>
             </div>
 
             <div class="sm:hidden space-x-[13px] ml-3">
-                <button class="py-3 px-3 rounded-[30px] text-sm text-center font-[600] border-[1px] inline-flex items-center border-[rgb(34,34,34)] bg-gradient-to-t from-[rgb(16,14,25)] to-[rgb(34,32,47)]">
+                <button href="#"  class="py-3 px-3 rounded-[30px] text-sm text-center font-[600] border-[1px] inline-flex items-center border-[rgb(34,34,34)] bg-gradient-to-t from-[rgb(16,14,25)] to-[rgb(34,32,47)]">
                     <img src={home}
                         class=' w-[15px]'/>
                 </button>
-                <button class="py-3 px-3 rounded-[30px] text-sm text-center font-[600] border-[1px] inline-flex items-center border-[rgb(34,34,34)] bg-gradient-to-t from-[rgb(16,14,25)] to-[rgb(34,32,47)]">
+                <button  href="https://www.behance.net/ohmegakilo" class="py-3 px-3 rounded-[30px] text-sm text-center font-[600] border-[1px] inline-flex items-center border-[rgb(34,34,34)] bg-gradient-to-t from-[rgb(16,14,25)] to-[rgb(34,32,47)]">
                     <img src={portfolio}
                         class=' w-[15px]'/>
                 </button>
-                <button class="py-3 px-3 rounded-[30px]  text-center font-[600] border-[1px] inline-flex items-center border-[rgb(34,34,34)] bg-gradient-to-t from-[rgb(16,14,25)] to-[rgb(34,32,47)] ">
-                    <img src={message}
+                <button  href="mailto:ohmegakilo@proton.me" class="py-3 px-3 rounded-[30px]  text-center font-[600] border-[1px] inline-flex items-center border-[rgb(34,34,34)] bg-gradient-to-t from-[rgb(16,14,25)] to-[rgb(34,32,47)] ">
+                    <img href="mailto:ohmegakilo@proton.me" src={message}
                         class=' w-[15px]'/>
                 </button>
             </div>
