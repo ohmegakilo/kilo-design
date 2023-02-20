@@ -33,10 +33,10 @@ export default function Navbar() {
                 </a>
             </div>
 
-            <button class="py-3 px-4 sm:px-5 rounded-[30px] hover:bg-[rgb(14,46,9)] text-[13px]  text-center text-gray-100 hover:text-white font-[600] border-[1px] border-gray-600 hover:border-green-300 hover:shadow-md transform active:scale-75 transition-transform focus:border-1.4 focus:border-green-300 duration-700 focus:outline-none inline-flex items-center ">
+            <a href="https://discord.gg/4hdP6pqv4A"  class="py-3 px-4 sm:px-5 rounded-[30px] hover:bg-[rgb(14,46,9)] text-[13px]  text-center text-gray-100 hover:text-white font-[600] border-[1px] border-gray-600 hover:border-green-300 hover:shadow-md transform active:scale-75 transition-transform focus:border-1.4 focus:border-green-300 duration-700 focus:outline-none inline-flex items-center ">
                 <span class=''>Join</span><img src={open}
                     class=' w-[12px] sm:w-[15px] ml-1'/>
-            </button>
+            </a>
         </nav>
     );
 }
